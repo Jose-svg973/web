@@ -1,0 +1,73 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eadfdf;
+  }
+  #for {
+    text-align: center;
+    color: #d1d9e0;
+    margin: 150px;
+    width: 70%;
+  }
+  #for h1 {
+    font-size: 42px;
+    float: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#for p {
+  font-size: 25px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  align-items: flex-start;
+}
+  
+  /* Estilos del formulario */
+  #admission-form {
+    width: 30%;
+    margin: 30px auto;
+    padding: 30px 33px 67px;
+    background:url(study.jpg)no-repeat 0px 0px;
+    background-size: cover;
+    background-position: center;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilos de los campos de formulario */
+  #admission-form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  #admission-form input[type="text"], #admission-form input[type="email"], #admission-form input[type="tel"] {
+    width: 100%;
+    height: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  #admission-form input[type="file"] {
+    width: 100%;
+    height: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Estilos de los botones */
+  #admission-form input[type="submit"] {
+    width: 100%;
+    height: 40px;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #admission-form input[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  
